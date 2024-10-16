@@ -70,7 +70,7 @@ checkBST (N l x E) = checkBST l && (maximun l) <= x
 checkBST (N l x r) =  checkBST l && checkBST r && (maximun l) <= x &&(minimun r) > x
 -}
 
---?)
+-- ?)
 {-
 insert x E = N E x E
 insert x (N l y r) \ x > y = (N l y (insert x r)) 
